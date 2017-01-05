@@ -64,7 +64,11 @@ cd ..
 
 ###### VAAPI `sudo apt-get install -y libva-dev vainfo`
 
-###### VDPAU `sudo apt-get install -y vdpau-driver-all mesa-vdpau-drivers vdpau-va-driver libvdpau-dev vdpauinfo`
+###### VDPAU
+
+```shell
+sudo apt-get install -y vdpau-driver-all mesa-vdpau-drivers vdpau-va-driver libvdpau-dev vdpauinfo
+```
 
 ###### x264 `git clone http://git.videolan.org/git/x264.git`
 
@@ -116,9 +120,17 @@ sudo ldconfig
 cd ..
 ```
 
-###### Sox `sudo apt-get install -y sox libsox-dev libsox-fmt-all libsox2 libsoxr-dev libsoxr-lsr0`
+###### Sox
 
-###### SSH / SSL `sudo apt-get install -y libssh-dev libssh-dbg libssh2-1-dev libssh2-1-dbg libssl-dev openssl`
+```shell
+sudo apt-get install -y sox libsox-dev libsox-fmt-all libsox2 libsoxr-dev libsoxr-lsr0
+```
+
+###### SSH / SSL
+
+```shell
+sudo apt-get install -y libssh-dev libssh-dbg libssh2-1-dev libssh2-1-dbg libssl-dev openssl
+```
 
 ###### Xvid / Theora / Vorbis / Wavpack / OpenAL / RTMPDump
 
