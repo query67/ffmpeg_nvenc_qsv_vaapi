@@ -120,7 +120,11 @@ cd ..
 
 ###### SSH / SSL `sudo apt-get install -y libssh-dev libssh-dbg libssh2-1-dev libssh2-1-dbg libssl-dev openssl`
 
-###### Xvid / Theora / Vorbis / Wavpack / OpenAL / RTMPDump `sudo apt-get install -y libtheora-dev libwavpack-dev libwavpack1 libxvidcore-dev libxvidcore4 libvorbis-dev libopenal-dev librtmp-dev rtmpdump`
+###### Xvid / Theora / Vorbis / Wavpack / OpenAL / RTMPDump
+
+```shell
+sudo apt-get install -y libtheora-dev libwavpack-dev libwavpack1 libxvidcore-dev libxvidcore4 libvorbis-dev libopenal-dev librtmp-dev rtmpdump
+```
 
 ###### ffmpeg `git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg`
 
